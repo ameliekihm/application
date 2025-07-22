@@ -7,6 +7,7 @@ variable "lb_variables" {
       devartsapne2 = 0
       artdapne2 = 0
       artpapne2 = 0
+      slamd_useast1 = 0
     }
 
     target_group_deregistration_delay = {
@@ -15,6 +16,7 @@ variable "lb_variables" {
       devartsapne2 = 0
       artdapne2 = 60
       artpapne2 = 60
+      slamd_useast1 = 60
     }
 
     external_lb = {
