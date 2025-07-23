@@ -44,7 +44,7 @@ variable "sg_variables" {
           stack   = "artp_apnortheast2"
         },
 
-        slamd_useast1 = {
+        slamduse1 = {
           Name    = "webapp-slamd_useast1-ec2-sg"
           app     = "webapp"
           project = "webapp"
@@ -96,7 +96,7 @@ variable "sg_variables" {
           stack   = "artp_apnortheast2"
         },
         
-        slamd_useast1 = {
+        slamduse1 = {
           Name    = "webapp-slamd_useast1-external-lb-sg"
           app     = "webapp"
           project = "webapp"

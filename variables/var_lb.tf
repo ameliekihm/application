@@ -62,7 +62,7 @@ variable "lb_variables" {
           stack   = "artp_apnortheast2"
         },
 
-        slamd_useast1 = {
+        slamduse1 = {
           Name    = "webapp-slamd_useast1-external-lb"
           app     = "webapp"
           project = "webapp"
@@ -115,7 +115,7 @@ variable "lb_variables" {
           stack   = "artp_apnortheast2"
         },
 
-        slamd_useast1 = {
+        slamduse1 = {
           Name    = "webapp-slamd_useast1-external-tg"
           app     = "webapp"
           project = "webapp"
