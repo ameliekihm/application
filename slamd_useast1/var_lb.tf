@@ -61,13 +61,13 @@ variable "lb_variables" {
           env     = "prod"
           stack   = "artp_apnortheast2"
         },
-
+        
         slamduse1 = {
-          Name    = "webapp-slamd_useast1-external-lb"
-          app     = "webapp"
-          project = "webapp"
-          env     = "dev"
-          stack   = "slamd_useast1"          
+         Name    = "webapp-slamd_useast1-external-lb"
+         app     = "webapp"
+         project = "webapp"
+         env     = "dev"
+         stack   = "slamd_useast1"
         }
       }
     }
@@ -121,9 +121,9 @@ variable "lb_variables" {
           project = "webapp"
           env     = "dev"
           stack   = "slamd_useast1"        
-
         }
       }
     }
   }
 }
+

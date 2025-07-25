@@ -1,0 +1,15 @@
+# Ignore local Terraform state
+.terraform/
+*.tfstate
+*.tfstate.backup
+
+# Ignore lock file if not needed
+.terraform.lock.hcl
+
+# Ignore provider/plugin cache folders
+**/.terraform/
+**/.terraform.lock.hcl
+
+# Optional: ignore IDE files
+.DS_Store
+

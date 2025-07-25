@@ -46,10 +46,10 @@ variable "remote_state" {
     # VPC
     vpc = {
 
-      slamd_useast1 = {
+      slamduse1 = {
         region = "us-east-1"
         bucket = "tf101-amelie-use1-tfstate"
-        key    = "terraform/vpc/slam/useast1/terraform.tfstate"
+        key    = "terraform/vpc/simple_vpc/terraform.tfstate"
   }
       neopindapne2 = {
         region = "ap-northeast-2"

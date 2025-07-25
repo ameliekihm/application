@@ -40,10 +40,12 @@ variable "availability_zone" {
 
 variable "route53_internal_domain" {
   description = "base domain name for internal"
+  default = ""
 }
 
 variable "route53_internal_zone_id" {
   description = "internal domain zone id"
+  default = ""
 }
 
 variable "route53_external_zone_id" {
